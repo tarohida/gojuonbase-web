@@ -18,7 +18,7 @@
 <div class="jumbotron">
     <h1>五十音進数変換</h1>
 </div>
-<form action="{{ url('/') }}" method="GET" class="needs-validation" novalidate>
+<form action="/" method="GET" class="needs-validation" novalidate>
     <p id="vw">利用可能な文字：<br>あいうえおかきくけこさしすせそたちつてとなにぬねの<br>はひふへほまみむめもやゆよらりるれろわゐゑをん</p>
     <input type="text" name="name" value="{{ old('name') }}" class="form-control @if($errors->has('name')) is-invalid @endif" id="name" placeholder="ひらかな" required>
     @if($errors->has('name'))
