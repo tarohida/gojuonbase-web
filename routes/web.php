@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'PageController@show');
+Route::get('/', 'App\Http\Controllers\PageController@show');
